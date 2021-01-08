@@ -12,19 +12,18 @@
             box-sizing: border-box;
         }
 
-        @font-face {
-            font-family: "Ilisarniq";
-            src: url("Ilisarniq-Regular.otf");
+        /* @font-face {
+            font-family: 'Ilisarniq';
+            src: url("https://uidevkarthick.github.io/yesbankmailer/Ilisarniq-Regular.otf");
         }
 
         @font-face {
-            font-family: "Ilisarniq-light";
-            src: url("Ilisarniq-Light.otf");
-        }
-
+            font-family: 'Ilisarniq-light';
+            src: url("https://uidevkarthick.github.io/yesbankmailer/Ilisarniq-Light.otf");
+        } */
         body {
             position: relative;
-            font-family: "Ilisarniq";
+            font-family: sans-serif;
         }
 
         .bg {
@@ -51,7 +50,7 @@
             float: left;
             width: 90%;
             background: #fff;
-            margin-top: 160px;
+            margin-top: -70px;
         }
 
         .bank-logos {
@@ -77,7 +76,6 @@
         }
 
         p {
-            font-family: "Ilisarniq-light";
             font-style: normal;
             font-size: 12px;
             line-height: 18px;
@@ -139,7 +137,6 @@
             font-size: 12px;
             line-height: 14px;
             color: #151515;
-            font-family: "Ilisarniq-light";
             margin-bottom: 8px;
         }
 
@@ -209,7 +206,6 @@
         .mail-us {
             line-height: 14px;
             color: #151515;
-            font-family: "Ilisarniq" !important;
             display: block;
         }
 
@@ -250,13 +246,6 @@
             color: #F47A20 !important;
             font-size: 11px;
             line-height: 16px;
-        }
-
-        .netc img {
-            width: 90%;
-            float: right;
-            position: relative;
-            top: 15px;
         }
 
         @media only screen and (max-width: 450px) {
@@ -302,81 +291,145 @@
     </style>
 
     <body>
-        <div class="container">
-            <div class="bg"></div>
-            <div class="mailer-cont">
-                <div class="bank-logos">
-                    <span><img src="logo.svg" /></span>
-                    <span class="netc"><img src="NETC-FASTag.svg" /></span>
-                </div>
-                <div class="mailer-txt">
-                    <h2>Hello “YesBankFleet User”,</h2>
-                    <p>Yes Bank take great pleasure in welcoming you to the Yes Bank Fastag program! We hope you find
-                        the Tag easy to use, Fast and rewarding. </p>
-                    <p>Congratulations! Now, Login to your “Fleet” (to Be hyperlinked) web portal for more exciting
-                        features.</p>
-                </div>
-                <div class="fill-dlts">
-                    <h3>Please find your Login details below:</h3>
-                    <div class="log-dlts" style="margin-top: 12px;">
-                        <span class="inps">
-                            <label>Username</label>
-                            <span>yes_fleet01</span>
-                        </span>
-                        <span class="inps">
-                            <label>Password</label>
-                            <span>987654@Abc&</span>
-                        </span>
-                    </div>
-                    <div class="note">
-                        <label>Note :</label>
-                        <p style="margin-bottom: 0;">For Security reasons your password will expire in 48 hours. Request
-                            to change it as soon as possible to make sure your account does not get locked out. You can
-                            also set the password using the “Forgot Password” option.</p>
-                    </div>
-                </div>
-                <div class="mailer-txt" style="border-bottom:1px solid rgba(124, 124, 124, 0.2);">
-                    <h3 style="margin-bottom: 24px;">Many reasons to have Yes Bank Fleet Program!</h3>
-                    <div class="rows">
-                        <div class="txt-col">
-                            <label><img src="bulb.svg" />Single Unique Virtual Account</label>
-                            <p>You can link multiple vehicles to a single Virtual Account created for you. Avoid hassle
-                                of loading each fastag, now all debits will be made on a single account.</p>
-                        </div>
-                        <div class="txt-col">
-                            <label><img src="load.svg" />Ease Loading to Fastag Account</label>
-                            <p>You can recharge your fastag account with NEFT, IMPS, RTGS and UPI as well! No Loading
-                                Charges on the fastag account will be applicable.</p>
-                        </div>
-                        <div class="txt-col">
-                            <label><img src="tag.svg" />Get Rewarded</label>
-                            <p>Fastag users earn 2.5%* cashback on all toll transactions made at National Highway Toll
-                                plazas.</p>
-                            <p>We value your business and are committed to providing you with the best possible fleet
-                                experience, service and support. Please feel free to contact us if you have any
-                                questions, feedback or suggestions by email.</p>
-                        </div>
-                        <div class="txt-col">
-                            <label><img src="hand.svg" />Ease of Access</label>
-                            <p>Monitor, view your profile, vehicle, account details, ease of access to real time reports
-                                all in one single dashboard!</p>
-                        </div>
-                    </div>
-                    <div class="end-txt-cont">
-                        <p class="mail-us" style="color: #151515;text-align:center;">Email us</p>
-                        <span class="sup-btn">Fleet Support</span>
-                    </div>
-                </div>
-                <div class="mailer-txt">
-                    <p class="f-txt-1" style="font-size: 11px;">*Cashback scheme funded by Govt. of India is valid till
-                        March 31, 2020 only.</p>
-                    <p class="f-txt-2" style="font-size: 11px;">As per letter issued by Ministry of Road Transport and
-                        Highways, FASTag is mandatory for all toll payments at National Highway Toll Plazas. With effect
-                        from Jan 01, 2021, the Ministry of Road Transportation and Highways has mandated that all
-                        vehicles should be affixed with FASTag.</p>
-                </div>
-            </div>
-        </div>
+        <table style="background:#f5f5f5;margin:auto" width="640" cellspacing="0" cellpadding="0">
+            <tr>
+                <td>
+                    <img src="bg.jpg" />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <table style="margin: auto;width: 90%;background: #fff;padding:0 18px;">
+                        <tr style="display: flex;justify-content: space-between;">
+                            <td><span><img src="logo.svg" /></span>
+                            </td>
+                            <td>
+                                <span><img src="NETC-FASTag.svg"
+                                        style="width: 80%;    margin-top: 15px;    float: right;" /></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h2
+                                    style="font-family: sans-serif;margin-top: 15px;display: block;color: #151515;margin-bottom: 15px;font-size: 14px;line-height: 24px;">
+                                    Hello “YesBankFleet User”,</h2>
+                                <p style="font-family: sans-serif;">Yes Bank take great pleasure in welcoming you to the
+                                    Yes Bank Fastag program! We hope you find the Tag easy to use, Fast and rewarding.
+                                </p>
+                                <p style="font-family: sans-serif;">Congratulations! Now, Login to your “Fleet” (to Be
+                                    hyperlinked) web portal for more exciting features. </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <table style="margin: auto;width: 90%;background: #fff;">
+                        <tr>
+                            <td style="padding:0;">
+                                <div class="fill-dlts">
+                                    <h3 style="font-family: sans-serif;">Please find your Login details below:</h3>
+                                    <div class="log-dlts" style="margin-top: 12px;font-family: sans-serif;">
+                                        <span class="inps">
+                                            <label>Username</label>
+                                            <span>yes_fleet01</span>
+                                        </span>
+                                        <span class="inps">
+                                            <label>Password</label>
+                                            <span>987654@Abc&</span>
+                                        </span>
+                                    </div>
+                                    <div class="note" style="font-family: sans-serif;">
+                                        <label>Note :</label>
+                                        <p style="margin-bottom: 0;">For Security reasons your password will expire in
+                                            48 hours. Request to change it as soon as possible to make sure your account
+                                            does not get locked out. You can also set the password using the “Forgot
+                                            Password” option.</p>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table
+                                    style="font-family: sans-serif;margin-top: 20px;    border-bottom: 1px solid rgba(124, 124, 124, 0.2);">
+                                    <tr>
+                                        <td colspan="2">
+                                            <h3
+                                                style="margin-bottom: 24px;text-align: center;font-size: 16px;line-height: 24px;text-align: center;color: #151515;">
+                                                Many reasons to have Yes Bank Fleet Program!</h3>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 50%;">
+                                            <div class="txt-col" style="width: 100%;">
+                                                <label><img src="bulb.svg" />Single Unique Virtual Account</label>
+                                                <p>You can link multiple vehicles to a single Virtual Account created
+                                                    for you. Avoid hassle of loading each fastag, now all debits will be
+                                                    made on a single account.</p>
+                                            </div>
+                                        </td>
+                                        <td style="width: 50%;">
+                                            <div class="txt-col" style="width: 100%;">
+                                                <label><img src="load.svg" />Ease Loading to Fastag Account</label>
+                                                <p>You can recharge your fastag account with NEFT, IMPS, RTGS and UPI as
+                                                    well! No Loading Charges on the fastag account will be applicable.
+                                                </p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width: 50%;">
+                                            <div class="txt-col" style="width: 100%;">
+                                                <label><img src="tag.svg" />Get Rewarded</label>
+                                                <p>Fastag users earn 2.5%* cashback on all toll transactions made at
+                                                    National Highway Toll plazas. </p>
+                                                <p>We value your business and are committed to providing you with the
+                                                    best possible fleet experience, service and support. Please feel
+                                                    free to contact us if you have any questions, feedback or
+                                                    suggestions by email.</p>
+                                            </div>
+                                        </td>
+                                        <td style="width: 50%;">
+                                            <div class="txt-col" style="width: 100%;">
+                                                <label><img src="hand.svg" />Ease of Access</label>
+                                                <p>Monitor, view your profile, vehicle, account details, ease of access
+                                                    to real time reports all in one single dashboard!</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="2">
+                                            <div class="end-txt-cont" style="font-family: sans-serif;">
+                                                <p class="mail-us"
+                                                    style="color: #151515;text-align:center;font-family: sans-serif;">
+                                                    Email us </p>
+                                                <span class="sup-btn">Fleet Support</span>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table style="font-family: sans-serif;">
+                                    <tr>
+                                        <td>
+                                            <div class="mailer-txt" style="font-family: sans-serif;">
+                                                <p class="f-txt-1"
+                                                    style="font-size: 11px;font-family: sans-serif;font-weight: bold;color: #F47A20;">
+                                                    *Cashback scheme funded by Govt. of India is valid till March 31,
+                                                    2020 only.</p>
+                                                <p class="f-txt-2" style="font-size: 11px;color: #F47A20;">As per letter
+                                                    issued by Ministry of Road Transport and Highways, FASTag is
+                                                    mandatory for all toll payments at National Highway Toll Plazas.
+                                                    With effect from Jan 01, 2021, the Ministry of Road Transportation
+                                                    and Highways has mandated that all vehicles should be affixed with
+                                                    FASTag.</p>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
     </body>
 
 </html>
